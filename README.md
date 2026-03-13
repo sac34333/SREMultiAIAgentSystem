@@ -28,7 +28,6 @@ Modern SRE is traditionally reactive — humans get paged, scramble to find dash
 7. [Deployment Architecture](#deployment-architecture)
 8. [Conceptual Repository Structure](#conceptual-repository-structure)
 9. [Roadmap](#roadmap)
-10. [Consulting & Implementation](#consulting--implementation)
 
 ---
 
@@ -343,21 +342,5 @@ Multi-Agent-SRE-Platform/
 - [ ] **Domain Extensions** — Apply the same architecture to Customer Support, Finance/Compliance, and HR/Onboarding use cases
 
 ---
-
-## 🤝 Consulting & Implementation
-
-> *"An SRE team doesn't scale linearly with incidents. Agents do."*
-
-This architecture is available as a **blueprint for enterprise implementation**. We specialize in designing, building, and safely deploying multi-agent AI systems tailored to your unique infrastructure and operational workflows.
-
-**Our Principles:**
-
-1. **Agents as First Responders, Humans as Decision-Makers** — Safety gates (CONFIRM loops) are mandatory for all mutable infrastructure actions
-2. **Observability is Non-Negotiable** — You cannot trust what you cannot measure; we instrument every token and API call
-3. **Evaluation Gates Deployments** — No AI logic reaches production without passing a rigorous, automated evaluation suite
-
----
-
-*If you're exploring multi-agent automation for your DevOps, SRE, or Platform Engineering teams — feel free to reach out to discuss architecture reviews or custom implementations.*
 
 *Built with [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/) · Deployed on GCP · Traced via OpenTelemetry*
